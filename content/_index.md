@@ -10,7 +10,7 @@ My research interests lie in probabilistic and geometric group theory, and in pa
 
 **Papers:**
 
-* [Semiassociative algebras over a field](http://arxiv.org/abs/2308.14653) (with Darrell Haile, Eliyahu Matzri, Edan Rein and Uzi Vishne), submitted.
+* [Semiassociative algebras over a field](http://arxiv.org/abs/2308.14653) (with Darrell Haile, Eliyahu Matzri, Edan Rein and Uzi Vishne), submitted. 
 * [Probabilistic laws on infinite groups](https://arxiv.org/abs/2304.09144) (with Gideon Amir, Maria Gerasimova and Gady Kozma), submitted.
 * [A law of iterated logarithm on lamplighter diagonal products](https://arxiv.org/abs/2205.05553) (with Gideon Amir), submitted.
 * [Identities of the algebra $\mathbb{O}\otimes\mathbb{O}$](https://www.ams.org/books/conm/785/) (with Louis Rowen and Uzi Vishne), Contemporary Mathematics, Noncommutative Rings and their Applications VII: Algebra and Coding Theory, In honor of Tariq Rizvi, (Leroy and Jain, eds.), 2021, Vol. 785, 35-45, (2023).
