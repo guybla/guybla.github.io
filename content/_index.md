@@ -21,4 +21,3 @@ My research interests lie in probabilistic and geometric group theory, and in pa
 **Others:**
 
 * [SageMath interface to the GAP package GBNP](https://gitlab.com/mathzeta2/gbnp) (with Tomer Bauer).
-
