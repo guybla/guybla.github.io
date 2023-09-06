@@ -66,28 +66,28 @@ pygmentsCodeFences=true
   name = "Homepage"
   title = "Homepage"
   url = "/"
-  weight = -100
+  weight = -120
 
 [[menu.main]]
   identifier = "teaching"
   name = "Teaching"
   title = "Teaching"
   url = "/teaching/"
-  weight = -90
+  weight = -110
 
 #[[menu.main]]
 #  identifier = "portfolio"
 #  name = "Portfolio"
 #  title = "Portfolio"
 #  url = "/portfolio/"
-#  weight = -90
+#  weight = -110
 
 #[[menu.main]]
 #  identifier = "blog"
 #  name = "Post"
 #  title = "Blog section"
 #  url = "/post/"
-#  weight = -80
+#  weight = -100
 
 [sitemap]
   changefreq = "monthly"
