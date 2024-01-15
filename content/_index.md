@@ -10,7 +10,8 @@ My research interests lie in probabilistic and geometric group theory, and in pa
 
 **Papers:**
 
-* [Lipschitz harmonic functions on vertex-transitive graphs](https://arxiv.org/abs/2309.06247) (with Gideon Amir, Maria Gerasimova and Gady Kozma). Available at arXiv:2309.06247.
+* [Rank-stability of polynomial equations](https://arxiv.org/abs/2401.04676) (with Tomer Bauer and Be'eri Greenfeld). Available at arXiv:2401.04676.
+* [Lipschitz harmonic functions on vertex-transitive graphs](https://arxiv.org/abs/2309.06247) (with Gideon Amir, Maria Gerasimova and Gady Kozma), submitted.
 * [Semiassociative algebras over a field](http://arxiv.org/abs/2308.14653) (with Darrell Haile, Eliyahu Matzri, Edan Rein and Uzi Vishne), submitted.
 * [Probabilistic laws on infinite groups](https://arxiv.org/abs/2304.09144) (with Gideon Amir, Maria Gerasimova and Gady Kozma), submitted.
 * [A law of iterated logarithm on lamplighter diagonal products](https://arxiv.org/abs/2205.05553) (with Gideon Amir), submitted.
