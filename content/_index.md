@@ -4,13 +4,15 @@ title: Guy Blachar
 
 I am a PhD student at Bar-Ilan University, under the supervision of [Prof. Gideon Amir](https://u.math.biu.ac.il/~amirgi/) and [Prof. Uzi Vishne](https://u.math.biu.ac.il/~vishneu/).
 
-My research interests lie in probabilistic and geometric group theory, and in particular the asymptotic behavior of random walks on finitely generated groups. I am also interested in Galois cohomology and the theory of rings and algebras, as well as in general probability theory.
+My research interests lie in probabilistic and geometric group theory, and in particular the asymptotic behavior of random walks on finitely generated groups, word maps, and geometric properties of groups. I am also interested in Galois cohomology and the theory of rings and algebras, as well as in general probability theory.
+
+My CV can be found [here](CV.pdf).
 
 ## Publications and Preprints
 
 **Papers:**
 
-* [Rank-stability of polynomial equations](https://arxiv.org/abs/2401.04676) (with Tomer Bauer and Be'eri Greenfeld). Available at arXiv:2401.04676.
+* [Rank-stability of polynomial equations](https://arxiv.org/abs/2401.04676) (with Tomer Bauer and Be'eri Greenfeld), submitted.
 * [Lipschitz harmonic functions on vertex-transitive graphs](https://arxiv.org/abs/2309.06247) (with Gideon Amir, Maria Gerasimova and Gady Kozma), accepted under minor revisions to Electronic Communications in Probability.
 * [Semiassociative algebras over a field](http://arxiv.org/abs/2308.14653) (with Darrell Haile, Eliyahu Matzri, Edan Rein and Uzi Vishne), accepted under minor revisions to the Journal of Algebra.
 * [Probabilistic laws on infinite groups](https://arxiv.org/abs/2304.09144) (with Gideon Amir, Maria Gerasimova and Gady Kozma), submitted.
