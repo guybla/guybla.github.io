@@ -13,7 +13,7 @@ My CV can be found [here](CV.pdf).
 **Papers:**
 
 * [Rank-stability of polynomial equations](https://arxiv.org/abs/2401.04676) (with Tomer Bauer and Be'eri Greenfeld), submitted.
-* [Probabilistic laws on infinite groups](https://arxiv.org/abs/2304.09144) (with Gideon Amir, Maria Gerasimova and Gady Kozma), submitted.
+* [Probabilistic laws on infinite groups](https://arxiv.org/abs/2304.09144) (with Gideon Amir, Maria Gerasimova and Gady Kozma), accepted under minor revisions to the Israel Journal of Mathematics.
 * [A law of iterated logarithm on lamplighter diagonal products](https://arxiv.org/abs/2205.05553) (with Gideon Amir), accepted under minor revisions to Groups, Geometry, and Dynamics.
 * [Lipschitz harmonic functions on vertex-transitive graphs](https://arxiv.org/abs/2309.06247) (with Gideon Amir, Maria Gerasimove and Gady Kozma), Electronic Communications in Probability, 29, 1--4.
 * [Semiassociative algebras over a field](http://arxiv.org/abs/2308.14653) (with Darrell Haile, Eliyahu Matzri, Edan Rein and Uzi Vishne), Journal of Algebra, 649, 35--84.
