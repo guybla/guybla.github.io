@@ -1,0 +1,56 @@
+/* Global styles */
+
+body {
+    font-family: "Lato";
+    font-feature-settings: "liga", "kern";
+    background-color: mintcream;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media (max-width: 767.98px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+table, th, td {
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.left-bar,
+.right-bar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 15%;
+  background-color: lightcyan;
+  z-index: -1; /* Ensure bars are behind the content */
+}
+
+.left-bar {
+  left: 0;
+}
+
+.right-bar {
+  right: 0;
+}
+
+@media (max-width: 767.98px) {
+    .left-bar,
+    .right-bar {
+      width: 0%;
+    }
+}

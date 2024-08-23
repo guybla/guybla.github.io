@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang='{{ .Site.Language.Lang }}'>
+
+<head>
+  <title>{{.Params.title}}</title>
+  <link rel='canonical' href='{{ .Permalink }}' />
+  {{ partial "head/meta" .}}
+  {{ partial "head/confstyle" .}}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/schema.html" . }}
+  {{ partial "mathjax_support.html" . }}
+</head>
+
+<div class="left-bar"></div>
+<div class="right-bar"></div>
+<body>
+
+<main id="content" class="{{ .Section }}">

@@ -9,6 +9,7 @@ homepage = "https://personal-web-example.netlify.com/"
 tags = ["portfolio", "blog", "post", "personal", "freelancer", "developer"]
 features = []
 min_version = "0.41"
+custom_css = ["css/mycustom.css"]
 
 [author]
   name = "Baptiste Jacquemet"
