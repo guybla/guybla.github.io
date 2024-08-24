@@ -26,7 +26,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by pressi
     <span class="lecture-time">9:30--10:00</span>
     <span class="lecture-title">Gathering</span>
   </summary>
-  <p></p>
+  <p>Gathering</p>
 </details>
 
 <details class="lecture-details">
@@ -50,7 +50,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by pressi
     <span class="lecture-time">12:00--13:00</span>
     <span class="lecture-title">Lunch</span>
   </summary>
-  <p></p>
+  <p>Lunch</p>
 </details>
 
 <details class="lecture-details">
@@ -72,9 +72,9 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by pressi
 <details class="lecture-details">
   <summary class="lecture-summary">
     <span class="lecture-time">15:00--15:30</span>
-    <span class="lecture-title">Coffee break</span>
+    <span class="lecture-title">Coffee Break</span>
   </summary>
-  <p></p>
+  <p>Coffee Break</p>
 </details>
 
 <details class="lecture-details">
@@ -90,7 +90,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by pressi
     <span class="lecture-time">16:30--18:00</span>
     <span class="lecture-title">Discussion</span>
   </summary>
-  <p></p>
+  <p>Discussion</p>
 </details>
 
 
