@@ -54,3 +54,77 @@ table, th, td {
       width: 0%;
     }
 }
+
+
+@media (max-width: 767.98px) {
+    body {
+        margin-left: 5%;
+        margin-right: 3%;
+    }
+}
+hr {
+    width: 80%;
+    margin-bottom: 4ex;
+}
+@media (max-width: 767.98px) {
+    .left-bar {
+        width: 0%;
+    };
+    .right-bar {
+      width: 3%;
+    };
+    table {
+        margin-left: -10px;
+    }
+    table th:first-of-type {
+      min-width: 12ch;
+    }   
+}
+
+img {
+  max-width: 100%; /* Ensure images do not exceed their container width */
+  height: auto;    /* Maintain aspect ratio */
+  display: block;
+  margin: 20px auto; /* Center the image and add margin */
+  border-radius: 8px;
+}
+
+
+.logos-container {
+  display: flex;
+  justify-content: center; /* Center the logos horizontally */
+  gap: 20px; /* Space between logos */
+  margin-bottom: 20px; /* Add some space below the logos */
+}
+
+.logo {
+  max-width: 150px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.lecture-details {
+  margin-bottom: 10px; /* Space between details elements */
+}
+
+.lecture-summary {
+  display: flex; /* Use flexbox for alignment */
+  align-items: flex-start; /* Align items at the start */
+  cursor: pointer; /* Change cursor to indicate it's clickable */
+}
+
+.lecture-time {
+  width: 120px; /* Fixed width for time to align */
+  white-space: nowrap; /* Prevent time from wrapping */
+}
+
+.lecture-title {
+  flex-grow: 1; /* Allow title to take remaining space */
+  padding-left: 10px; /* Optional: Add some space between time and title */
+  overflow-wrap: break-word; /* Allow title to break if too long */
+  font-weight: bold;
+}
+
+.lecture-abstract {
+  margin-bottom: 10px;
+  padding-left: 130px;
+}

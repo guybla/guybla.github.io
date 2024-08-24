@@ -1,5 +1,14 @@
 {{ partial "confheader" }}
 
+{{ if .Params.logos }}
+<div class="logos-container">
+  {{ range .Params.logos }}
+  <img src="{{ . | relURL }}" alt="Logo" class="logo">
+  {{ end }}
+</div>
+{{ end }}
+
+
 <center>
 <h1>{{ .Title }}</h1>
 </center>
