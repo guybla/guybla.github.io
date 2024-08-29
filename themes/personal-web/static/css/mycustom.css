@@ -3,7 +3,8 @@
 body {
     font-family: "Lato";
     font-feature-settings: "liga", "kern";
-    background-color: mintcream;
+    color: #00280f;
+    background-color: #f5faf0;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -36,7 +37,7 @@ table, th, td {
   top: 0;
   bottom: 0;
   width: 15%;
-  background-color: lightcyan;
+  background-color: #004128;
   z-index: -1; /* Ensure bars are behind the content */
 }
 
@@ -102,6 +103,12 @@ img {
   height: auto;
 }
 
+@media (min-width: 768px) {
+    .logo {
+      min-width: 200px; /* Adjust the size as needed */
+    }
+}
+
 .lecture-details {
   margin-bottom: 10px; /* Space between details elements */
 }
@@ -122,9 +129,17 @@ img {
   padding-left: 10px; /* Optional: Add some space between time and title */
   overflow-wrap: break-word; /* Allow title to break if too long */
   font-weight: bold;
+  text-decoration: underline dashed #7ce;
+  color: #006937;
 }
 
 .lecture-abstract {
   margin-bottom: 10px;
   padding-left: 130px;
+}
+
+.ai-img {
+    filter: drop-shadow(0 0 25px #7ce);
+    padding: 15px;
+    border-radius: 45px;
 }

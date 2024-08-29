@@ -1,11 +1,17 @@
 {{ partial "confheader" }}
 
 {{ if .Params.logos }}
-<div class="logos-container">
+<!-- <div class="logos-container">
   {{ range .Params.logos }}
-  <img src="{{ . | relURL }}" alt="Logo" class="logo">
+  <img src="{{ . | relURL }}" alt="Logo" class="logo" style="min-width: 200px;">
+  {{ end }}
+</div> -->
+<div class="logos-container">
+  {{ range $index, $logo := .Params.logos }}
+  <img src="{{ $logo | relURL }}" alt="{{ index $.Params.alt_texts $index }}" class="logo">
   {{ end }}
 </div>
+
 {{ end }}
 
 
