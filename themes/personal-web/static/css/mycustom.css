@@ -9,6 +9,11 @@ body {
     margin-right: 20%;
 }
 
+a {
+    color: #006937;
+    text-decoration: underline dashed #78cde6;
+}
+
 @media (max-width: 767.98px) {
     body {
         margin-left: 5%;
@@ -115,31 +120,42 @@ img {
 
 .lecture-summary {
   display: flex; /* Use flexbox for alignment */
-  align-items: flex-start; /* Align items at the start */
+  align-items: center; /* Align items at the center */
   cursor: pointer; /* Change cursor to indicate it's clickable */
 }
 
 .lecture-time {
-  width: 120px; /* Fixed width for time to align */
-  white-space: nowrap; /* Prevent time from wrapping */
+  min-width: 120px; /* Fixed width for time to align */
+  white-space: nowrap;
+  align-self: flex-start;
 }
 
 .lecture-title {
-  flex-grow: 1; /* Allow title to take remaining space */
-  padding-left: 10px; /* Optional: Add some space between time and title */
-  overflow-wrap: break-word; /* Allow title to break if too long */
   font-weight: bold;
-  text-decoration: underline dashed #7ce;
+  text-decoration: underline dashed #78cde6;
   color: #006937;
 }
 
-.lecture-abstract {
-  margin-bottom: 10px;
-  padding-left: 130px;
+.lecture-title-undashed {
+  font-weight: bold;
+  color: #006937;
 }
 
+.lecture-info {
+  margin-left: 10px; /* Space between title and lecturer info */
+  font-weight: normal; /* Regular weight for the info text */
+  color: inherit; /* Use the default text color */
+  white-space: nowrap; /* Prevent info from wrapping */
+}
+
+.lecture-abstract {
+  margin-left: 120px;
+  font-style: italic;
+}
+
+
 .ai-img {
-    filter: drop-shadow(0 0 25px #7ce);
+    filter: drop-shadow(0 0 25px #78cde6);
     padding: 15px;
     border-radius: 45px;
 }
