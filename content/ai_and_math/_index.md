@@ -32,7 +32,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
       <span class="lecture-title">Gathering and refreshments</span>
     </span>
   </summary>
-  <p class="lecture-abstract">Please register in <a href="https://forms.gle/47Rr2RaBzHmzQEuX6" target="_blank">this form</a>. </p>
+  <p class="lecture-abstract">Please register using <a href="https://forms.gle/47Rr2RaBzHmzQEuX6" target="_blank">this form</a>. </p>
 </details>
 
 <details class="lecture-details">
