@@ -1,7 +1,7 @@
 /* Global styles */
 
 body {
-    font-family: "Lato";
+    font-family: "Lato", sans serif;
     font-feature-settings: "liga", "kern";
     color: #00280f;
     background-color: #f5faf0;
@@ -125,8 +125,7 @@ img {
 }
 
 .lecture-time {
-  min-width: 120px; /* Fixed width for time to align */
-  white-space: nowrap;
+  min-width: 12ch; /* Fixed width for time to align */
   align-self: flex-start;
 }
 
@@ -145,7 +144,6 @@ img {
   margin-left: 10px; /* Space between title and lecturer info */
   font-weight: normal; /* Regular weight for the info text */
   color: inherit; /* Use the default text color */
-  white-space: nowrap; /* Prevent info from wrapping */
 }
 
 .lecture-abstract {
