@@ -3,7 +3,7 @@ title: Teaching
 ---
 
 **Instructor:**
-* Linear Algebra I (Summer 21, 22, 23)
+* Linear Algebra I (Summer 21, 22, 23, 24)
 * Introduction to Probability and Statistics for Financial Mathematics (Fall 23)
 
 **TA:**

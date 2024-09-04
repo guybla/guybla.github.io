@@ -73,7 +73,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
     <span class="lecture-time">13:10&ndash;13:40</span>
     <span class="lecture-title-container">
       <span class="lecture-title">Language Models have a Hard Time Thinking Logically</span><br/>
-      <span class="lecture-info"><a href="https://www.cs.tau.ac.il/~nachumd/Homepage.html" target="_blank">Nachum Dershowitz</a> (Tel-Aviv University)</span>
+      <span class="lecture-info"><a href="https://www.cs.tau.ac.il/~nachumd/Homepage.html" target="_blank">Nachum Dershowitz</a> (Tel Aviv University)</span>
     </span>
   </summary>
   <p class="lecture-abstract">TBA</p>
