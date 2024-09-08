@@ -126,7 +126,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
     <span class="lecture-time">16:15&ndash;17:00</span>
     <span class="lecture-title-container">
       <span class="lecture-title">Revolutionizing Math Education: Harnessing AI and Algorithms for Student Success</span><br/>
-      <span class="lecture-info"><a href="https://www.stevens.edu/profile/amiasnik" target="_blank">Alexey Miasnikov</a> (Stevens Institute of Technology) &ndash; online</span>
+      <span class="lecture-info"><a href="https://www.stevens.edu/profile/amiasnik" target="_blank">Alexei Miasnikov</a> (Stevens Institute of Technology) &ndash; online</span>
     </span>
   </summary>
   <p class="lecture-abstract">TBA</p>
