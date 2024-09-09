@@ -22,6 +22,8 @@ The workshop will also be broadcasted via Zoom; the meeting link will be sent to
 
 **Planning to participate?** <a href="https://forms.gle/47Rr2RaBzHmzQEuX6" target="_blank">Please register here</a>. Registration is free, but mandatory.
 
+**Event poster:** <a href="/ai2024/poster.pdf" target="_blank">Available here</a> (please distribute).
+
 
 ### Program (tentative)
 
@@ -44,7 +46,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
       <span class="lecture-info"><a href="http://theory.caltech.edu/~gukov/" target="_blank">Sergei Gukov</a> (Caltech) &ndash; online</span>
     </span>
   </summary>
-  <p class="lecture-abstract">TBA</p>
+  <p class="lecture-abstract">In this talk, intended for a broad audience, I will use concrete examples from combinatorial group theory and low-dimensional topology to illustrate how rapid growth of AI algorithms can change the way we do mathematical research and help us with some of the most difficult mathematical challenges. One of the goals of this talk is to provide a gentle introduction to some of the modern tools in Machine Learning, in part explaining its increasing role in everyday life and in pure mathematics as well.</p>
 </details>
 
 <details class="lecture-details">
@@ -114,11 +116,12 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
   <summary class="lecture-summary">
     <span class="lecture-time">15:35&ndash;16:05</span>
     <span class="lecture-title-container">
-      <span class="lecture-title">TBA</span><br/>
+      <span class="lecture-title">Data-Speaking LLM Agents</span><br/>
       <span class="lecture-info"><a href="https://u.cs.biu.ac.il/~somecha/" target="_blank">Amit Somech</a> (Bar-Ilan University)</span>
     </span>
   </summary>
-  <p class="lecture-abstract">TBA</p>
+  <p class="lecture-abstract">We all know that LLMs are great for all kinds of everyday tasks—writing, editing, summarizing articles, and even generating code on demand. But can we rely on them for data-focused tasks? On one hand, LLMs are trained on massive text datasets, some of which include structured data like CSVs and JSON files. Plus, thanks to forums like Stack Overflow, they should be able to help with writing SQL queries and data-processing code. However, we’ve found that when it comes to working with data, LLMs aren't as "fluent" as we might hope. When faced with larger tables, they often struggle to fully understand the structure or produce accurate tabular output. They also aren’t great at verifying facts when the information is presented in table form, even if they "know" the facts. In this talk, we’ll introduce several non-trivial data tasks, review how standard LLMs perform, and explore new architectures that could push the current capabilities forward. 
+</p>
 </details>
 
 <details class="lecture-details">
@@ -129,7 +132,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
       <span class="lecture-info"><a href="https://www.stevens.edu/profile/amiasnik" target="_blank">Alexei Miasnikov</a> (Stevens Institute of Technology) &ndash; online</span>
     </span>
   </summary>
-  <p class="lecture-abstract">TBA</p>
+  <p class="lecture-abstract">While AI has captured widespread attention for its applications in various fields, its role in mathematics education presents both exciting opportunities and distinct challenges. This talk will focus on Gradarius, a system that uses graph algorithms to provide step-by-step feedback on student solutions, offering unmatched precision and rigor. We will explore how AI is integrated into this framework—not as the core mathematical engine, but as a tool to enhance usability, analyze student behavior, and adapt to diverse learning paths. This presentation will offer a balanced view of AI’s strengths and limitations, with a focus on how cutting-edge algorithms and machine learning can work together to revolutionize the teaching and learning of mathematics.</p>
 </details>
 
 <details class="lecture-details">
