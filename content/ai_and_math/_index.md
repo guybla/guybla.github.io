@@ -89,7 +89,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
       <span class="lecture-info"><a href="https://biu.academia.edu/YuvalDolev" target="_blank">Yuval Dolev</a> (Bar-Ilan University)</span>
     </span>
   </summary>
-  <p class="lecture-abstract">TBA</p>
+  <p class="lecture-abstract">Can AI be expected to be mathematically creative? I offer reasons why the answer should be negative. I do so in the context of two central doctrines in the philosophy of mathematics – Platonism and intuitionism. I argue that despite being opposed to each other on almost any question regarding the nature of mathematical objects and truth, these two rival positions do share this – that creativity is not reducible either to randomness, or to a deterministic computation. Moreover, I suggest there is a normative (aesthetic) foundation to mathematics, to which AI is blind. These considerations highlight the limitedness of AI and point to the indispensability and irreplaceability of human creativity.</p>
 </details>
 
 <details class="lecture-details">
