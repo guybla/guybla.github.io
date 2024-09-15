@@ -152,7 +152,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
 
 ----------------------
 
-**Venue:** <a href="https://www.biu.ac.il/en/" target="_blank">Bar-Ilan University</a> (<a href="https://www.google.co.il/maps/place/Bar-Ilan+University/@32.0684574,34.8086459,14.5z/data=!4m5!3m4!1s0x151d4a6bba43574b:0xbdefd650a8c208c4!8m2!3d32.0691989!4d34.8430876" target="_blank">Google Maps</a>)
+**Venue:** <a href="https://www.biu.ac.il/en/" target="_blank">Bar-Ilan University</a>, Physics building 202, Room 301 (<a href="https://www.google.co.il/maps/place/Bar-Ilan+University/@32.0684574,34.8086459,14.5z/data=!4m5!3m4!1s0x151d4a6bba43574b:0xbdefd650a8c208c4!8m2!3d32.0691989!4d34.8430876" target="_blank">Google Maps</a>)
 
 
 **Organizers:** <a href="https://math.biu.ac.il/en/node/3476" target="_blank">Elena Bunina</a> (chair), <a href="https://mathzeta2.gitlab.io/homepage/" target="_blank">Tomer Bauer</a>, <a href="https://guybla.github.io/" target="_blank">Guy Blachar</a>, <a href="https://math.biu.ac.il/en/node/519" target="_blank">Gregory Soifer</a>, <a href="https://u.math.biu.ac.il/~vishneu/" target="_blank">Uzi Vishne</a> and <a href="https://u.cs.biu.ac.il/~zoharyo1/" target="_blank">Yoni Zohar</a>.
