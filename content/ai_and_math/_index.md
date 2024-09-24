@@ -18,14 +18,16 @@ layout: "conference"
 
 The workshop will take place on Sunday, 29.09.2024.
 
-The workshop will also be broadcasted via Zoom; the meeting link will be sent to the registered participants on the day of the event.
-
 **Planning to participate?** <a href="https://forms.gle/47Rr2RaBzHmzQEuX6" target="_blank">Please register here</a>. Registration is free, but mandatory.
+
+**Venue:** <a href="https://www.biu.ac.il/en/" target="_blank">Bar-Ilan University</a>, building 202, room 301 (<a href="https://www.google.co.il/maps/place/Bar-Ilan+University/@32.0684574,34.8086459,14.5z/data=!4m5!3m4!1s0x151d4a6bba43574b:0xbdefd650a8c208c4!8m2!3d32.0691989!4d34.8430876" target="_blank">Google Maps</a>)
+
+**Zoom link:** <a href="https://biu-ac-il.zoom.us/s/89090774774" target="_blank">https://biu-ac-il.zoom.us/s/89090774774</a>.
 
 **Event poster:** <a href="/ai2024/poster.pdf" target="_blank">Available here</a> (please distribute).
 
 
-### Program (tentative)
+### Program
 
 All times are in Israel Standard Time (UTC+3). Abstracts are available by clicking the titles.
 
@@ -78,7 +80,8 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
       <span class="lecture-info"><a href="https://www.cs.tau.ac.il/~nachumd/Homepage.html" target="_blank">Nachum Dershowitz</a> (Tel Aviv University)</span>
     </span>
   </summary>
-  <p class="lecture-abstract">TBA</p>
+  <p class="lecture-abstract">I will illustrate some of the difficulties modern generative language models have with logical reasoning (propositional and first order) and with self reflection.
+</p>
 </details>
 
 <details class="lecture-details">
@@ -151,8 +154,6 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
 
 
 ----------------------
-
-**Venue:** <a href="https://www.biu.ac.il/en/" target="_blank">Bar-Ilan University</a>, Physics building 202, Room 301 (<a href="https://www.google.co.il/maps/place/Bar-Ilan+University/@32.0684574,34.8086459,14.5z/data=!4m5!3m4!1s0x151d4a6bba43574b:0xbdefd650a8c208c4!8m2!3d32.0691989!4d34.8430876" target="_blank">Google Maps</a>)
 
 
 **Organizers:** <a href="https://math.biu.ac.il/en/node/3476" target="_blank">Elena Bunina</a> (chair), <a href="https://mathzeta2.gitlab.io/homepage/" target="_blank">Tomer Bauer</a>, <a href="https://guybla.github.io/" target="_blank">Guy Blachar</a>, <a href="https://math.biu.ac.il/en/node/519" target="_blank">Gregory Soifer</a>, <a href="https://u.math.biu.ac.il/~vishneu/" target="_blank">Uzi Vishne</a> and <a href="https://u.cs.biu.ac.il/~zoharyo1/" target="_blank">Yoni Zohar</a>.
