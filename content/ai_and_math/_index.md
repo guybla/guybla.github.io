@@ -112,7 +112,7 @@ All times are in Israel Standard Time (UTC+3). Abstracts are available by clicki
       <span class="lecture-info"><a href="https://www.ma.imperial.ac.uk/~buzzard/" target="_blank">Kevin Buzzard</a> (Imperial College London) &ndash; online</span>
     </span>
   </summary>
-  <p class="lecture-abstract">TBA</p>
+  <p class="lecture-abstract">Right now it seems that humanity has got to the stage where teaching an interactive theorem prover a proof of Fermat's Last Theorem will be technically possible, but a lot of work. What actually is involved, and how can AI help?</p>
 </details>
 
 <details class="lecture-details">
