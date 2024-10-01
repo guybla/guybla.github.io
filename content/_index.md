@@ -2,7 +2,9 @@
 title: Guy Blachar
 ---
 
-I am a PhD student at Bar-Ilan University, under the supervision of [Prof. Gideon Amir](https://u.math.biu.ac.il/~amirgi/) and [Prof. Uzi Vishne](https://u.math.biu.ac.il/~vishneu/).
+I am a postdoc at the Weizmann Institute of Science, under the mentorship of [Prof. Gady Kozma](https://en.wikipedia.org/wiki/Gady_Kozma).
+
+Previously, I was a PhD student at Bar-Ilan University, under the supervision of [Prof. Gideon Amir](https://u.math.biu.ac.il/~amirgi/) and [Prof. Uzi Vishne](https://u.math.biu.ac.il/~vishneu/).
 
 My research interests lie in probabilistic and geometric group theory, and in particular the asymptotic behavior of random walks on finitely generated groups, word maps, and geometric properties of groups. I am also interested in stability of equations in groups and algebras.
 
@@ -12,8 +14,8 @@ My CV can be found [here](CV.pdf).
 
 **Papers:**
 
-1. [Probabilistic laws on infinite groups](https://arxiv.org/abs/2304.09144) (with Gideon Amir, Maria Gerasimova and Gady Kozma), accepted to the Israel Journal of Mathematics (2024).
-2. [A law of iterated logarithm on lamplighter diagonal products](https://arxiv.org/abs/2205.05553) (with Gideon Amir), accepted to Groups, Geometry, and Dynamics (2024).
+1. [Probabilistic laws on infinite groups](https://arxiv.org/abs/2304.09144) (with Gideon Amir, Maria Gerasimova and Gady Kozma), to appear in the Israel Journal of Mathematics (2024).
+2. [A law of iterated logarithm on lamplighter diagonal products](https://arxiv.org/abs/2205.05553) (with Gideon Amir), to appear in Groups, Geometry, and Dynamics (2024).
 3. [Lipschitz harmonic functions on vertex-transitive graphs](https://arxiv.org/abs/2309.06247) (with Gideon Amir, Maria Gerasimove and Gady Kozma), Electronic Communications in Probability, 29, 1--4.
 4. [Semiassociative algebras over a field](http://arxiv.org/abs/2308.14653) (with Darrell Haile, Eliyahu Matzri, Edan Rein and Uzi Vishne), Journal of Algebra, 649, 35--84.
 5. [Identities of the algebra $\mathbb{O}\otimes\mathbb{O}$](https://www.ams.org/books/conm/785/) (with Louis Rowen and Uzi Vishne), Contemporary Mathematics, Noncommutative Rings and their Applications VII: Algebra and Coding Theory, In honor of Tariq Rizvi, (Leroy and Jain, eds.), 2021, Vol. 785, 35-45, (2023).
