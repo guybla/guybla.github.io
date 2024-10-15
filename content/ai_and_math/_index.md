@@ -31,6 +31,8 @@ The workshop will take place on Sunday, 29.09.2024.
 
 All times are in Israel Standard Time (UTC+3). Abstracts are available by clicking the titles.
 
+Recordings are available at <a href="https://www.youtube.com/playlist?list=PLCrJ6CKHIwszE5cONQF9cr8KOKAy_Axzs" target="_blank">this link</a>.
+
 <details class="lecture-details">
   <summary class="lecture-summary">
     <span class="lecture-time">9:30&ndash;10:00</span>
