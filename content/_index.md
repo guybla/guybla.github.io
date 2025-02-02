@@ -25,12 +25,13 @@ My CV can be found [here](CV.pdf).
 
 **Preprints:**
 
-9.	[Profinite rigidity of lamplighter groups](https://arxiv.org/abs/2410.15945).
-10. [Rank-stability of polynomial equations](https://arxiv.org/abs/2401.04676) (with Tomer Bauer and Be'eri Greenfeld), submitted.
+9.	[Mixability of finite groups](https://arxiv.org/abs/2501.17806) (with Gideon Amir, Subhajit Ghosh and Uzi Vishne), submitted.
+10.	[Profinite rigidity of lamplighter groups](https://arxiv.org/abs/2410.15945), submitted.
+11.	[Rank-stability of polynomial equations](https://arxiv.org/abs/2401.04676) (with Tomer Bauer and Be'eri Greenfeld), under revision.
 
 **Others:**
 
-11. [SageMath interface to the GAP package GBNP](https://gitlab.com/mathzeta2/gbnp) (with Tomer Bauer).
+12. [SageMath interface to the GAP package GBNP](https://gitlab.com/mathzeta2/gbnp) (with Tomer Bauer).
 
 ## Conferences
 
