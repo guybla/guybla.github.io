@@ -27,12 +27,13 @@ My CV can be found [here](CV.pdf).
 
 **Preprints:**
 
-11. [The speed of random walks on semigroups]() (with Be'eri Greenfeld), submitted.
-12. [Mixability of finite groups](https://arxiv.org/abs/2501.17806) (with Gideon Amir, Subhajit Ghosh and Uzi Vishne), submitted.
+11. [Phase transition for recurrence of stationary random walks on lamplighter groups](https://arxiv.org/abs/2510.06441) (with Itai Benjamini and Ariel Yadin), submitted.
+12. [The speed of random walks on semigroups](https://arxiv.org/abs/2504.09633) (with Be'eri Greenfeld), submitted.
+13. [Mixability of finite groups](https://arxiv.org/abs/2501.17806) (with Gideon Amir, Subhajit Ghosh and Uzi Vishne), submitted.
 
 **Others:**
 
-13. [SageMath interface to the GAP package GBNP](https://gitlab.com/mathzeta2/gbnp) (with Tomer Bauer).
+14. [SageMath interface to the GAP package GBNP](https://gitlab.com/mathzeta2/gbnp) (with Tomer Bauer).
 
 ## Conferences
 
