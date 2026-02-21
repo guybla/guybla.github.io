@@ -10,7 +10,7 @@ pygmentsCodeFences=true
 
 [params.intro]
   main = "Guy Blachar"
-  sub = "Postdoc at the Weizmann Institute of Science"
+  sub = "Postdoc at Université Paris Dauphine-PSL"
 
 [params.main]
   latestPublishHeader = ""
