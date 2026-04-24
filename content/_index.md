@@ -16,7 +16,7 @@ My CV can be found [here](CV.pdf).
 
 **Papers:**
 
-1. [The speed of random walks on semigroups](https://arxiv.org/abs/2504.09633) (with Be'eri Greenfeld), to appear in Annales (de l'Institut) Henri Poincaré (2026).
+1. [The speed of random walks on semigroups](https://arxiv.org/abs/2504.09633) (with Be'eri Greenfeld), to appear in Annales de l'Institut Henri Poincaré (2026).
 2. [Mixability of finite groups](https://onlinelibrary.wiley.com/doi/full/10.1002/rsa.70037) (with Gideon Amir, Subhajit Ghosh and Uzi Vishne), Random Structures \& Algorithms 67, no. 4: e70037 (2025).
 3. [Rank-stability of polynomial equations](https://academic.oup.com/imrn/article-abstract/2025/13/rnaf173/8184481?utm_source=advanceaccess&utm_campaign=imrn&utm_medium=email) (with Tomer Bauer and Be'eri Greenfeld), International Mathematics Research Notices, 2025.13 (2025).
 4. [Profinite rigidity of lamplighter groups](https://arxiv.org/abs/2410.15945), Proceedings of the American Mathematical Society, 153.09, 3735-3741 (2025).
