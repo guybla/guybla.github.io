@@ -31,12 +31,13 @@ My CV can be found [here](CV.pdf).
 
 **Preprints:**
 
-13. [Small entropy doubling for random walks and polynomial growth](https://arxiv.org/abs/2604.08490), submitted.
-14. [Phase transition for recurrence of stationary random walks on lamplighter groups](https://arxiv.org/abs/2510.06441) (with Itai Benjamini and Ariel Yadin), submitted.
+13. [Edge-regular graphs with non-negative curvature have polynomial growth](https://arxiv.org/abs/2606.11094) (with Hervé Pajot and Justin Salez), submitted.
+14. [Small entropy doubling for random walks and polynomial growth](https://arxiv.org/abs/2604.08490), submitted.
+15. [Phase transition for recurrence of stationary random walks on lamplighter groups](https://arxiv.org/abs/2510.06441) (with Itai Benjamini and Ariel Yadin), submitted.
 
 **Others:**
 
-15. [SageMath interface to the GAP package GBNP](https://gitlab.com/mathzeta2/gbnp) (with Tomer Bauer).
+16. [SageMath interface to the GAP package GBNP](https://gitlab.com/mathzeta2/gbnp) (with Tomer Bauer).
 
 ## Conferences
 
