@@ -38,7 +38,7 @@ My CV can be found [here](CV.pdf).
 
 **Others:**
 
-16. [SageMath interface to the GAP package GBNP](https://gitlab.com/mathzeta2/gbnp) (with Tomer Bauer).
+17. [SageMath interface to the GAP package GBNP](https://gitlab.com/mathzeta2/gbnp) (with Tomer Bauer).
 
 ## Conferences
 
