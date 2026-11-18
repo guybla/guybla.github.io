@@ -1,0 +1,12 @@
+{{- $start := 1 -}}
+{{- range .Site.Data.publications }}
+  {{- if .entries }}
+    <p><strong>{{ .heading }}:</strong></p>
+    <ol start="{{ $start }}">
+      {{- range .entries }}
+        <li>{{ $.Page.RenderString . }}</li>
+      {{- end }}
+    </ol>
+    {{- $start = add $start (len .entries) }}
+  {{- end }}
+{{- end -}}
