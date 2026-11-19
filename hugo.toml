@@ -24,7 +24,7 @@ pygmentsCodeFences=true
 
 [params]
   breadcrumb = true
-  accentColor = "#FD3519"
+  accentColor = "#112f41"
   #mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
   rendererSafe = false # set to true if wish to remove the unsafe renderer setting below (recommended). Titles will not be run through markdownify
 
@@ -45,12 +45,11 @@ pygmentsCodeFences=true
   portfolio = "project"
 
 [params.sidebar]
-  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
-  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "/images/guy-blachar.jpg"
+  logo = "/images/guy-blachar-300.webp"
 [params.assets]
   favicon = ""
   customCSS = ""
+  cv = "CV.pdf"
 
 
 [params.contact]
@@ -67,18 +66,22 @@ pygmentsCodeFences=true
 [menu]
 
 [[menu.main]]
-  identifier = "homepage"
-  name = "Homepage"
-  title = "Homepage"
-  url = "/"
-  weight = -120
+  identifier = "publications"
+  name = "Publications"
+  url = "/#publications-and-preprints"
+  weight = 10
+
+[[menu.main]]
+  identifier = "preprints"
+  name = "Preprints"
+  url = "/#preprints"
+  weight = 20
 
 [[menu.main]]
   identifier = "teaching"
   name = "Teaching"
-  title = "Teaching"
-  url = "/teaching/"
-  weight = -110
+  url = "/#teaching"
+  weight = 30
 
 #[[menu.main]]
 #  identifier = "portfolio"

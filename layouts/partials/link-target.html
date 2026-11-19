@@ -1,0 +1,5 @@
+{{- $pageURL := urls.Parse .page.Permalink -}}
+{{- $destination := $pageURL.ResolveReference (urls.Parse .href) -}}
+{{- $linkedPage := index (split $destination.String "#") 0 -}}
+{{- $samePage := and (in .href "#") (eq $linkedPage $pageURL.String) -}}
+{{- return (cond $samePage "_self" "_blank") -}}

@@ -1,10 +1,16 @@
 {{- $start := 1 -}}
 {{- range .Site.Data.publications }}
   {{- if .entries }}
-    <p><strong>{{ .heading }}:</strong></p>
-    <ol start="{{ $start }}">
-      {{- range .entries }}
-        <li>{{ $.Page.RenderString . }}</li>
+    <h3 id="{{ .heading | anchorize }}">{{ .heading }}</h3>
+    <ol class="publication-list" start="{{ $start }}">
+      {{- range $index, $entry := .entries }}
+        <li>
+          {{- if reflect.IsMap $entry }}
+            {{ partial "publication-entry.html" (dict "paper" $entry "number" (add $start $index)) }}
+          {{- else }}
+            {{ $.Page.RenderString $entry }}
+          {{- end }}
+        </li>
       {{- end }}
     </ol>
     {{- $start = add $start (len .entries) }}

@@ -1,0 +1,31 @@
+{{- $paper := .paper -}}
+{{- $titleID := printf "paper-title-%d" .number -}}
+<div class="paper-entry">
+  {{- with $paper.abstract }}
+    <details class="paper-details">
+      <summary class="paper-title" id="{{ $titleID }}">{{ $paper.title }}</summary>
+      <div class="paper-abstract">
+        {{- range split . "\n\n" }}
+          <p>{{ replace . "\n" " " }}</p>
+        {{- end }}
+      </div>
+    </details>
+  {{- else }}
+    <strong class="paper-title" id="{{ $titleID }}">{{ $paper.title }}</strong>
+  {{- end }}
+  <span class="paper-links">
+    {{- $versions := slice
+      (dict "field" "arxiv" "label" "arXiv" "prefix" "https://arxiv.org/abs/")
+      (dict "field" "doi" "label" ($paper.doi_label | default "Journal") "prefix" "https://doi.org/")
+    -}}
+    {{- if not (or $paper.arxiv $paper.doi) }}
+      {{- $versions = slice (dict "field" "code" "label" "Code" "prefix" "") }}
+    {{- end }}
+    {{- range $version := $versions }}
+      {{- with index $paper $version.field }}
+        <a href="{{ print $version.prefix . }}" target="_blank" rel="noopener" aria-describedby="{{ $titleID }}">{{ $version.label }}</a>
+      {{- end }}
+    {{- end }}
+  </span>
+  {{- with $paper.citation }}<div class="paper-citation">{{ . }}</div>{{ end }}
+</div>

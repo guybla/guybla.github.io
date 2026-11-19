@@ -1,8 +1,7 @@
-{{ $currentPage := . }}
 {{ range .Site.Menus.main }}
-        <p>
-            <a href="{{ .URL }}">
-                {{ .Name }}
-            </a>
-        </p>
+  {{- $href := .URL | relURL }}
+  <a href="{{ $href }}" target="{{ partial "link-target.html" (dict "href" $href "page" $) }}" rel="noopener">{{ .Name }}</a>
+{{ end }}
+{{ with .Site.Params.assets.cv }}
+  <a href="{{ . | relURL }}" target="_blank" rel="noopener" aria-label="CV (PDF, opens in a new tab)">CV (PDF)</a>
 {{ end }}

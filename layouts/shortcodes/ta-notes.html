@@ -1,0 +1,2 @@
+{{- $path := path.Join "notes" (.Get 0) -}}
+{{- if fileExists (path.Join "static" $path) }} · <a href="{{ $path | relURL }}">TA notes in Hebrew (PDF)</a>{{ end -}}

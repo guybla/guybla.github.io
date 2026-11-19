@@ -1,1 +1,2 @@
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "https") }} target="_blank"{{ end }} >{{ .Text | safeHTML }}</a>
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }} target="{{ partial "link-target.html" (dict "href" .Destination "page" .Page) }}" rel="noopener">{{ .Text | safeHTML }}</a>
+{{- /* Keep punctuation next to inline links. */ -}}

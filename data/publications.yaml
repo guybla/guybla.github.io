@@ -1,65 +1,270 @@
+# Copy an entry under the appropriate heading to add another paper.
+# Use a quoted arXiv identifier and a bare DOI. Omit any unavailable fields.
+# Indent citation and abstract text beneath their keys. Inline math uses $...$.
+# The order below determines the numbering across all three sections.
+
 - heading: Papers
   entries:
-    - >-
-      [The speed of random walks on semigroups](https://arxiv.org/abs/2504.09633)
-      (with Be'eri Greenfeld), to appear in Annales de l'Institut Henri Poincaré (2026).
-    - >-
-      [Probabilistic laws on infinite groups](https://arxiv.org/abs/2304.09144)
-      (with Gideon Amir, Maria Gerasimova and Gady Kozma), Israel Journal of Mathematics, 1-56 (2026).
-    - >-
-      [Mixability of finite groups](https://onlinelibrary.wiley.com/doi/full/10.1002/rsa.70037)
-      (with Gideon Amir, Subhajit Ghosh and Uzi Vishne), Random Structures \& Algorithms 67, no. 4: e70037 (2025).
-    - >-
-      [Rank-stability of polynomial equations](https://academic.oup.com/imrn/article-abstract/2025/13/rnaf173/8184481?utm_source=advanceaccess&utm_campaign=imrn&utm_medium=email)
-      (with Tomer Bauer and Be'eri Greenfeld), International Mathematics Research Notices, 2025.13 (2025).
-    - >-
-      [Profinite rigidity of lamplighter groups](https://arxiv.org/abs/2410.15945),
-      Proceedings of the American Mathematical Society, 153.09, 3735-3741 (2025).
-    - >-
-      [A law of iterated logarithm on lamplighter diagonal products](https://arxiv.org/abs/2205.05553)
-      (with Gideon Amir), Groups, Geometry, Dynamics 19, no. 3, pp. 1041–1080 (2025).
-    - >-
-      [Lipschitz harmonic functions on vertex-transitive graphs](https://arxiv.org/abs/2309.06247)
-      (with Gideon Amir, Maria Gerasimove and Gady Kozma), Electronic Communications in Probability, 29, 1--4.
-    - >-
-      [Semiassociative algebras over a field](http://arxiv.org/abs/2308.14653)
-      (with Darrell Haile, Eliyahu Matzri, Edan Rein and Uzi Vishne), Journal of Algebra, 649, 35--84.
-    - >-
-      [Identities of the algebra $\mathbb{O}\otimes\mathbb{O}$](https://www.ams.org/books/conm/785/)
-      (with Louis Rowen and Uzi Vishne), Contemporary Mathematics, Noncommutative Rings and their Applications VII: Algebra and Coding Theory, In honor of Tariq Rizvi, (Leroy and Jain, eds.), 2021, Vol. 785, 35-45, (2023).
-    - >-
-      [Abelianization of the Cartwright-Steger lattice](https://admjournal.luguniv.edu.ua/index.php/adm/article/view/1966)
-      (with Orit Sela--Ben-David and Uzi Vishne), Algebra and Discrete Mathematics, Vol. 34(2), 176-186, (2022).
-    - >-
-      [Noncommutative inclusion–exclusion, representations of left regular bands and the Tsetlin library](https://www.worldscientific.com/doi/abs/10.1142/S021819672150003X)
-      (with Louis Rowen and Uzi Vishne), International Journal of Algebra and Computation, Vol. 31(1), 37-62, (2021).
-    - >-
-      [$\ell$-weak identities and central polynomials for matrix algebras](https://link.springer.com/chapter/10.1007/978-3-030-63111-6_5)
-      (with Eliyahu Matzri, Louis Rowen and Uzi Vishne), INdAM series, Proceedings of the workshop ``Polynomial Identities in Algebras'', (2021).
+    - title: 'The speed of random walks on semigroups'
+      arxiv: '2504.09633'
+      accepted: https://imstat.org/journals-and-publications/annales-de-linstitut-henri-poincare/annales-de-linstitut-henri-poincare-accepted-papers/
+      citation: >-
+        (with Be'eri Greenfeld), to appear in Annales de l'Institut Henri Poincaré (2026).
+      abstract: |-
+        We construct, for each real number $0\leq \alpha\leq 1$, a random walk on a finitely
+        generated semigroup whose speed exponent is $\alpha$. We further show that the speed
+        function of a random walk on a finitely generated semigroup can be arbitrarily slow, yet
+        tending to infinity. These phenomena demonstrate a sharp contrast from the
+        group-theoretic setting. On the other hand, we show that the distance of a random walk
+        on a finitely generated semigroup from its starting position is infinitely often larger
+        than a non-constant universal lower bound, excluding a certain degenerate case.
+
+    - title: 'Probabilistic laws on infinite groups'
+      arxiv: '2304.09144'
+      doi: '10.1007/s11856-026-2943-2'
+      citation: >-
+        (with Gideon Amir, Maria Gerasimova and Gady Kozma), Israel Journal of Mathematics, 1–56
+        (2026).
+      abstract: |-
+        We study the probability that certain laws are satisfied on infinite groups, focusing on
+        elements sampled by random walks. For several group laws, including the metabelian one,
+        we construct examples of infinite groups for which the law holds with high probability,
+        but the group does not satisfy the law virtually. On the other hand, we show that if an
+        infinite group satisfies the law $x^2=1$ with positive probability, then it is virtually
+        abelian.
+
+    - title: 'Mixability of finite groups'
+      arxiv: '2501.17806'
+      doi: '10.1002/rsa.70037'
+      citation: >-
+        (with Gideon Amir, Subhajit Ghosh and Uzi Vishne), Random Structures & Algorithms 67,
+        no. 4: e70037 (2025).
+      abstract: |-
+        Say that a finite group $G$ is mixable if a product of random elements, each chosen
+        independently from two options, can distribute uniformly on $G$. We present conditions
+        and obstructions to mixability. We show that $2$-groups, the symmetric groups, the
+        simple alternating groups, several matrix and sporadic simple groups, and most finite
+        Coxeter groups, are mixable. We also provide bounds on the mixing length of such groups.
+
+    - title: 'Rank-stability of polynomial equations'
+      arxiv: '2401.04676'
+      doi: '10.1093/imrn/rnaf173'
+      citation: >-
+        (with Tomer Bauer and Be'eri Greenfeld), International Mathematics Research Notices,
+        2025.13 (2025).
+      abstract: |-
+        Extending the thoroughly studied theory of group stability, we study Ulam stability type
+        problems for associative and Lie algebras; namely, we investigate obstacles to
+        rank-approximation of almost solutions by exact solutions for systems of polynomial
+        equations. This leads to a rich theory of stable associative and Lie algebras, with
+        connections to linear soficity, amenability, growth, and group stability. We develop
+        rank-stability and instability tests, examine the effect of algebraic constructions on
+        rank-stability, and prove that while finite-dimensional associative algebras are
+        rank-stable, ‘most’ finite-dimensional Lie algebras are not.
+
+    - title: 'Profinite rigidity of lamplighter groups'
+      arxiv: '2410.15945'
+      doi: '10.1090/proc/17334'
+      citation: >-
+        Proceedings of the American Mathematical Society, 153.09, 3735–3741 (2025).
+      abstract: |-
+        We show that the lamplighter groups $(\mathbb{Z}/p\mathbb{Z})^n\wr\mathbb{Z}$, where $p$
+        is prime and $n\ge 1$ is a positive integer, are profinitely rigid.
+
+    - title: 'A law of iterated logarithm on lamplighter diagonal products'
+      arxiv: '2205.05553'
+      doi: '10.4171/GGD/830'
+      citation: >-
+        (with Gideon Amir), Groups, Geometry, Dynamics 19, no. 3, pp. 1041–1080 (2025).
+      abstract: |-
+        We prove a Law of Iterated Logarithm for random walks on a family of diagonal products
+        constructed by Brieussel and Zheng (2021). This provides a wide variety of new examples
+        of Law of Iterated Logarithm behaviours for random walks on groups. In particular, it
+        follows that for any $\frac{1}{2}\leq \beta\leq 1$ there is a group $G$ and random walk
+        $W_n$ on $G$ with $\mathbb{E}|W_n|\simeq n^\beta$ such that $$0<\limsup
+        \frac{|W_n|}{n^\beta(\log\log n)^{1-\beta}}<\infty$$ and $$0<\liminf
+        \frac{|W_n|(\log\log n)^{1-\beta}}{n^\beta}<\infty.$$
+
+    - title: 'Lipschitz harmonic functions on vertex-transitive graphs'
+      arxiv: '2309.06247'
+      doi: '10.1214/24-ECP588'
+      citation: >-
+        (with Gideon Amir, Maria Gerasimova and Gady Kozma), Electronic Communications in
+        Probability, 29, 1–4 (2024).
+      abstract: |-
+        We prove that every infinite, locally finite vertex-transitive graph $G$ admits a
+        non-constant Lipschitz harmonic function.
+
+    - title: 'Semiassociative algebras over a field'
+      arxiv: '2308.14653'
+      doi: '10.1016/j.jalgebra.2024.03.006'
+      citation: >-
+        (with Darrell Haile, Eliyahu Matzri, Edan Rein and Uzi Vishne), Journal of Algebra, 649,
+        35–84 (2024).
+      abstract: |-
+        An associative central simple algebra is a form of matrices, because a maximal étale
+        subalgebra acts on the algebra faithfully by left and right multiplication. In an
+        attempt to extract and isolate the full potential of this point of view, we study
+        nonassociative algebras whose nucleus contains an étale subalgebra bi-acting faithfully
+        on the algebra. These algebras, termed semiassociative, are shown to be the forms of
+        skew matrices, which we are led to define and investigate. Semiassociative algebras
+        modulo skew matrices compose a Brauer monoid, which contains the Brauer group of the
+        field as a unique maximal subgroup.
+
+    - title: 'Identities of the algebra $\mathbb{O}\otimes\mathbb{O}$'
+      doi: '10.1090/conm/785/15773'
+      doi_label: Chapter
+      fulltext: https://www.researchgate.net/publication/371437097_Identities_of_the_algebra
+      citation: >-
+        (with Louis Rowen and Uzi Vishne), Algebra and Coding Theory, Contemporary Mathematics
+        785, 35–45 (2023).
+      abstract: |-
+        We find nonassociative polynomial identities of minimal degree, which is $7$, for the
+        algebras $\mathbb{O}\otimes\mathbb{O}$ and $M_2(\mathbb{O})$, where $\mathbb{O}$ is the
+        octonion algebra.
+
+    - title: 'Abelianization of the Cartwright-Steger lattice'
+      doi: '10.12958/adm1966'
+      pdf: https://admjournal.luguniv.edu.ua/index.php/adm/article/download/1966/pdf
+      citation: >-
+        (with Orit Sela–Ben-David and Uzi Vishne), Algebra and Discrete Mathematics, Vol. 34(2),
+        176–186, (2022).
+      abstract: |-
+        The Cartwright-Steger lattice is a group whose Cayley graph can be identified with the
+        Bruhat-Tits building of $\mathrm{PGL}_d$ over a local field of positive characteristic.
+        We give a lower bound on the abelianization of this lattice, and report that the bound
+        is tight in all computationally accessible cases.
+
+    - title: 'Noncommutative inclusion–exclusion, representations of left regular bands and the Tsetlin library'
+      doi: '10.1142/S021819672150003X'
+      pdf: https://u.math.biu.ac.il/~vishneu/publications/tsetlin-cohomology-Ver2.pdf
+      citation: >-
+        (with Louis Rowen and Uzi Vishne), International Journal of Algebra and Computation,
+        Vol. 31(1), 37–62, (2021).
+      abstract: |-
+        We find a semigroup $Q_n$, whose category of partial representations contains the
+        representation category $\operatorname{Rep}(F_n)$ of the free left regular band $F_n$.
+        We use this to construct a resolution for the absolute kernel of a representation of
+        $F_n$, for which the kernel $\mathrm{Sp}_n$ of the Markov operation in the Tsetlin
+        library model is a prominent example. We obtain a formula for the dimension of the
+        absolute kernel, generalizing the equality of the dimension of $\mathrm{Sp}_n$ to the
+        number of derangements of order $n$.
+
+    - title: '$\ell$-weak identities and central polynomials for matrices'
+      doi: '10.1007/978-3-030-63111-6_5'
+      doi_label: Chapter
+      pdf: https://u.math.biu.ac.il/~vishneu/publications/WeakIdentities6.pdf
+      citation: >-
+        (with Eliyahu Matzri, Louis Rowen and Uzi Vishne), Polynomial Identities in Algebras,
+        Springer INdAM Series 44, 69–95 (2021).
+      abstract: |-
+        We develop the theory of $\ell$-weak identities in order to provide a feasible way of
+        studying the central polynomials of matrix algebras. We describe the weak identities of
+        minimal degree of matrix algebras in any dimension.
 
 - heading: Preprints
   entries:
-    - >-
-      [Cutoff on abelian groups](https://arxiv.org/abs/2611.23180)
-      (with Jonathan Hermon and Justin Salez), submitted.
-    - >-
-      [Random semigroups à la Gromov](https://arxiv.org/abs/2610.39673)
-      (with Be'eri Greenfeld and Margaret Shideler), submitted.
-    - >-
-      [Galois groups of random polynomials of large degree](https://arxiv.org/abs/2609.40123)
-      (with Emmanuel Breuillard and Gady Kozma), submitted.
-    - >-
-      [Edge-regular graphs with non-negative curvature have polynomial growth](https://arxiv.org/abs/2606.11094)
-      (with Hervé Pajot and Justin Salez), submitted.
-    - >-
-      [Small entropy doubling for random walks and polynomial growth](https://arxiv.org/abs/2604.08490),
-      submitted.
-    - >-
-      [Phase transition for recurrence of stationary random walks on lamplighter groups](https://arxiv.org/abs/2510.06441)
-      (with Itai Benjamini and Ariel Yadin), submitted.
+    - title: 'Cutoff on abelian groups'
+      arxiv: '2611.23180'
+      citation: >-
+        (with Jonathan Hermon and Justin Salez), submitted.
+      abstract: |-
+        We prove the long-predicted equivalence between the cutoff phenomenon and the product
+        condition along any sequence of abelian random walks whose inverse transition
+        probabilities grow at most logarithmically with the size of the group. Our result does
+        not require reversibility, and comes with a sharp quantitative estimate on the mixing
+        window. Moreover, we show that our sparsity restriction is optimal by constructing
+        abelian Cayley graphs which satisfy the product condition but fail to exhibit cutoff,
+        and whose degrees are arbitrarily close to being logarithmic in the volume.
 
-- heading: Others
+    - title: 'Random semigroups à la Gromov'
+      arxiv: '2610.39673'
+      citation: >-
+        (with Be'eri Greenfeld and Margaret Shideler), submitted.
+      abstract: |-
+        We introduce a model of random semigroups analogous to Gromov's density model for random
+        groups. For a fixed number $n\ge 2$ of generators and a density parameter $\delta\in
+        (0,1)$, we impose a uniformly chosen set of $\lfloor n^{2\delta l}\rfloor$ relations of
+        the form $u=v$, where $u,v$ are distinct words of length at most $l$, and study the
+        resulting semigroup as $l\to\infty$. We prove that, with overwhelming probability, above
+        density $1/2$ the semigroup is trivial, while below density $1/2$ it contains a free
+        subsemigroup of rank two, has a Golod-Shafarevich semigroup algebra over every field,
+        and has a homomorphic image which generates a non-elementary hyperbolic group. We also
+        show that the small cancellation condition $C(m)$ holds with overwhelming probability
+        whenever $\delta<1/(2m)$. Finally, for $n\ge 3$, at critical density $1/2$ we obtain a
+        subsequential limiting distribution on finite semigroups, with positive mass at the
+        trivial semigroup and unbounded support in size. This contrasts with random groups,
+        which have order at most two with overwhelming probability at critical density.
+
+    - title: 'Galois groups of random polynomials of large degree'
+      arxiv: '2609.40123'
+      citation: >-
+        (with Emmanuel Breuillard and Gady Kozma), submitted.
+      abstract: |-
+        We study random polynomials of the form
+        \[R(x)=x^n+\omega_{n-1}x^{n-1}+\cdots+\omega_0,\] where $\omega_0,\dots,\omega_{n-1}$
+        are independent, uniformly bounded integer-valued random variables, and
+        $\omega_1,\dots,\omega_{n-1}$ have a fixed common law $\mu$.
+
+        We prove (unconditionally) that, if the Rényi entropy of order $2$ satisfies
+        $H_2(\mu)=-\log\|\mu\|_2^2>12$, then \[\mathbb{P}(\operatorname{disc}(R)\text{ is a
+        square})=O_\mu(1/\log n).\] Combined with previous results, this shows that, for such
+        measures $\mu$ and under additional hypotheses, $R$ has full Galois group
+        $\mathrm{Sym}(n)$ with high probability, when conditioned on $\omega_0\ne 0$.
+
+    - title: 'Edge-regular graphs with non-negative curvature have polynomial growth'
+      arxiv: '2606.11094'
+      citation: >-
+        (with Hervé Pajot and Justin Salez), submitted.
+      abstract: |-
+        A long-standing conjecture in the emerging discrete Bakry-Émery theory asserts that
+        bounded-degree graphs satisfying $\mathrm{CD}(0,\infty)$ have polynomial growth. In the
+        present paper, we prove this conjecture for all edge-regular graphs, and even obtain a
+        volume doubling estimate with a constant that depends only on the degree. This is made
+        possible thanks to the discovery of a surprising self-improvement phenomenon, which
+        seems of independent interest: any edge-regular graph satisfying
+        $\mathrm{CD}(\kappa,\infty)$ for some $\kappa\in\mathbb R$ must in fact satisfy
+        $\mathrm{CD}(\kappa,n)$ for some explicit, universal and optimal dimension parameter
+        $n$.
+
+    - title: 'Small entropy doubling for random walks and polynomial growth'
+      arxiv: '2604.08490'
+      citation: >-
+        submitted.
+      abstract: |-
+        Gromov's theorem states that a finitely generated group has polynomial growth if and
+        only if it is virtually nilpotent. A key ingredient in its proof is the small doubling
+        property. In this work, we study entropy analogues of this property for random walks on
+        groups. We show that if a finitely supported symmetric random walk $R_n$ satisfies \[
+        \mathrm{H}(R_{2n}) \le \mathrm{H}(R_n) + \log K \] at some sufficiently large scale $n$,
+        then the underlying group is virtually nilpotent, with bounds depending on $K$ and
+        $\mu_{\min}$.
+
+        Our approach adapts Tao's entropy Balog–Szemerédi–Gowers argument to unimodular locally
+        compact groups, combined with structural results on approximate groups.
+
+        As applications, we obtain entropy-based criteria for polynomial growth. We also deduce
+        an entropy gap phenomenon: if $G$ is not virtually nilpotent, then the entropy of random
+        walks on $G$ grows faster than a universal superlogarithmic function.
+
+    - title: 'Phase transition for recurrence of stationary random walks on lamplighter groups'
+      arxiv: '2510.06441'
+      citation: >-
+        (with Itai Benjamini and Ariel Yadin), submitted.
+      abstract: |-
+        We introduce and study a class of random walks on lamplighter groups $H\wr G$, where $H$
+        is a nontrivial finitely generated group and $G$ is an infinite finitely generated
+        group, called stationary random walks. At each step, the walk switches the lamp at its
+        current position, moves in the base group with a drift towards the identity, and
+        switches the lamp again at the new position. We show that when $G$ is
+        virtually-$\mathbb{Z}$ and $H$ is finite, these walks exhibit a phase transition between
+        recurrence and transience, while when $G$ is not virtually-$\mathbb{Z}$ or $H$ is
+        infinite, they are always transient. In the case $G=\mathbb{Z}$, we determine the exact
+        critical parameter and provide a quantitative description of this phase transition.
+
+- heading: Software
   entries:
-    - >-
-      [SageMath interface to the GAP package GBNP](https://gitlab.com/mathzeta2/gbnp)
-      (with Tomer Bauer).
+    - title: 'SageMath interface to the GAP package GBNP'
+      code: https://gitlab.com/mathzeta2/gbnp
+      citation: >-
+        (with Tomer Bauer).

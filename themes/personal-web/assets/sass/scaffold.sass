@@ -5,10 +5,10 @@
   box-sizing: border-box
 
 html
-  background-color: $primary-color
+  background-color: $dark-blue
 
 body
-  background-color: white
+  background-color: #f6fbf9
   margin: 0
   min-height: 100%
   font-family: $font-family_main
@@ -19,7 +19,7 @@ body
     line-height: $line-height_main_mobile
 
 ul
-  margin-top: -$margin-blocks/2
+  margin-top: 0
 
 li
   line-height: $line-height_main
@@ -33,16 +33,15 @@ p
   font-weight: $font-weight_main
   font-size: 1em
   margin-top: 0
-  margin-bottom: $margin-blocks/2
+  margin-bottom: 0.7rem
   line-height: $line-height_main
-  text-align: justify
+  text-align: start
 
 h1, h2, h3, h4, h5
   font-family: $font-family_header
   letter-spacing: $letter-spacing_header
-  margin-bottom: $margin-blocks/3
-  margin-top: $margin-blocks
-  line-height: $line-height_h
+  margin: 1.45rem 0 0.45rem
+  line-height: 1.25
 
 h1
   font-size: $font-size_h1
@@ -61,7 +60,7 @@ blockquote
   margin: 0 $margin-blocks/6
   font-size: 1em
   line-height: $line-height_main
-  text-align: justify
+  text-align: start
   font-style: italic
   &:before
     font-family: Georgia, serif
@@ -74,9 +73,6 @@ blockquote
     z-index: -1
     font-style: italic
 
-header, #content
-  height: 100%
-
 figure
   margin: 0
   img
@@ -86,165 +82,224 @@ figure
       font-size: $font-size_medium
       text-align: center
 
-header
-  width: $sidebar-width
-  background-size: cover
-  background-position: top center
+a
+  color: $link-color
+  font-weight: 600
+  text-underline-offset: 0.14em
+  text-decoration-thickness: 1px
+
+a:hover
+  color: #003f45
+  text-decoration-thickness: 2px
+
+a:focus-visible
+  outline: 2px solid currentColor
+  outline-offset: 3px
+
+.site-header
   position: fixed
+  inset: 0 auto 0 0
+  width: $sidebar-width
+  overflow-y: auto
+  padding: 2rem 1.6rem
+  background: $dark-blue
   color: $grey-100
 
-  h2
-    font-size: $font-size_h1
-    font-weight: $font-weight_h1
+.site-header-inner, .site-identity, .site-nav
+  display: flex
+  flex-direction: column
+  align-items: flex-start
 
-  .menu
-    text-align: left
-    p
-      margin-bottom: 0px
+.site-header-inner
+  gap: 1.25rem
 
-  .socials
-    padding: $padding-content
-    bottom: 0px
-    position: fixed
-    border: 0
-    max-width: $sidebar-width
+.site-header a, footer a
+  color: inherit
 
-    .social-link a, a:visited, a:focus, a:active
-      svg
-        fill: white
+.site-identity
+  gap: 0.85rem
+  text-decoration: none
 
-    .social-link a:focus, a:active, a:hover
-      svg
-        +transition(fill 0.7s)
-        fill: $grey-500
-
-  a, a:link, a:visited
-    color: white
-    border-bottom: 0
-    font-weight: $font-weight_main
-    +transition(all 0.25s)
-    line-height: $line-height_menu
-    &:not(.social-link)
-      border-bottom: $grey-100 1px dashed
-
-  a:hover, a:focus, a:active
-    color: $secondary-color
-    &:not(.social-link)
-      font-weight: $font-weight_h1
-      border-bottom: $grey-100 1px dashed
-
-  .intro
-    padding: $padding-content
-    position: absolute
-    top: 0px
-    //bottom: 140px
-
-  .rounded-logo
-    +rounded
-    margin-bottom: 4/3*$margin-blocks
+  img
     display: block
-    box-shadow: $box-shadow
+    border-radius: 50%
 
-  +tablet
-    width: $sidebar-width-tablet
-
-    .intro
-      bottom: 150px
-
-    .socials
-      max-width: $sidebar-width-tablet
-
-  +smartphone
-    position: relative
-    width: 100%
-    background: $dark-blue !important
-    display: block
-    height: auto
-    p
-      padding-top: $margin-blocks/3
-
-    .socials
-      padding: $padding-content_mobile
-      position: relative
-      max-width: inherit
-
-    .rounded-logo
-      text-align: center
-      margin: 0 auto
-
-    .intro
-      bottom: inherit
-      display: block
-      position: relative
-
-#content, .breadcrumb
-  max-width: $max-width-content
-  margin: 0 auto
+.site-name, .site-position
   display: block
 
-a
-  line-height: $line-height_main+0.1
+.site-name
+  font: 600 1.8rem/1.2 $font-family_header
 
-a, a:visited, a:link
-  text-decoration: none
-  color: inherit
-  font-weight: 600
-  border-bottom: $grey-600 1px dashed
-  padding-bottom: 1px
-  +transition(all 0.2s)
-  svg
-    fill: inherit
-    +transition(all 0.2s)
+.site-position
+  margin-top: 0.3rem
+  color: #d8e9ea
+  font-weight: 400
+  line-height: 1.4
 
-a:hover, a:focus, a:active
-  color: $secondary-color
-  text-decoration: none
-  font-weight: 600
-  border-bottom: $grey-600 1px dashed
-  padding-bottom: 1px
-  svg
-    fill: $secondary-color
+.site-nav
+  gap: 0.15rem
+
+  a
+    display: inline-flex
+    align-items: center
+    min-height: 2rem
+    text-decoration: none
+
+.site-identity:hover .site-name, .site-nav a:hover
+  text-decoration: underline
+
+.site-contact
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  gap: 0.25rem 1rem
+  font-size: 0.95rem
+
+.content-wrapper, footer
+  margin-left: $sidebar-width
+  padding: 1.9rem clamp(2rem, 4vw, 4rem)
 
 .content-wrapper
-  padding: $padding-content
-  position: static
-  width: $content-width
-  margin-left: $sidebar-width
-  float: none
-  clear: none
-  display: block
   min-height: 88vh
 
-  +tablet
-    width: $content-width-tablet
-    margin-left: $sidebar-width-tablet
+#content, .breadcrumb, .footer-wrapper
+  max-width: $max-width-content
+  margin: 0 auto
 
-  +smartphone
-    position: relative
-    width: 100%
-    margin-left: 0
+#content
+  overflow-wrap: break-word
+
+  > h1:first-child
+    margin-top: 0
+
+  > p
+    max-width: $max-width-prose
+
+  h2 + h3
+    margin-top: 0.55rem
+
+  h3
+    font-size: 1.22rem
+    margin-bottom: 0.4rem
+
+.breadcrumb
+  margin-bottom: 0.75rem
+
+.publication-list
+  margin: 0
+  padding-inline-start: 2rem
+  color: #354e59
+
+  > li
+    padding-inline-start: 0.12rem
+    margin-bottom: 0.55rem
+    line-height: 1.42
+
+    &::marker
+      color: #4d6570
+      font-variant-numeric: tabular-nums
+
+    > a:first-child
+      display: block
+      width: fit-content
+      max-width: 100%
+
+.paper-entry
+  display: grid
+  container-type: inline-size
+  grid-template-columns: minmax(0, max-content) max-content 1fr
+  grid-template-areas: "title links ." "citation citation citation" "abstract abstract abstract"
+  align-items: baseline
+
+.paper-details, .paper-title
+  grid-area: title
+  min-width: 0
+
+.paper-title
+  font-weight: 700
+  color: $dark-blue
+
+summary.paper-title
+  cursor: pointer
+  list-style: none
+  text-decoration: underline
+  text-underline-offset: 0.14em
+  text-decoration-thickness: 1px
+
+  &::-webkit-details-marker
+    display: none
+
+  &:hover, &:focus-visible
+    color: $link-color
+    text-decoration-thickness: 2px
+
+  &:focus-visible
+    outline: 2px solid currentColor
+    outline-offset: 3px
+
+.paper-links
+  grid-area: links
+  display: inline-flex
+  gap: 0.28rem
+
+  a
+    margin-block: 0.12rem
+    padding: 0.13rem 0.38rem
+    border: 1px solid #a1bdba
+    border-radius: 0.25rem
+    background: #f1f7f5
+    font-size: 0.77rem
+    line-height: 1.3
+    text-decoration: none
+
+    &:first-child
+      margin-inline-start: 0.5rem
+
+    &:hover
+      background: #dcece6
+      border-color: currentColor
+
+.paper-citation
+  grid-area: citation
+
+.paper-abstract
+  grid-area: abstract
+  min-width: 0
+  width: 100cqi
+  overflow-x: auto
+  margin: 0.45rem 0 0.35rem
+  padding: 0.65rem 0.85rem
+  border-left: 3px solid #93b7b0
+  background: #eef5f2
+  color: $dark-blue
+
+  p:last-child
+    margin-bottom: 0
+
+  mjx-container[display="true"]
+    overflow-x: auto
+    max-width: 100%
+
+@supports #{'selector(details::details-content)'}
+  .paper-details
+    display: contents
+
+    &::details-content
+      grid-area: abstract
+      min-width: 0
+
+.teaching-section
+  p
+    margin-bottom: 0.15rem
+  ul
+    padding-inline-start: 1.5rem
+    margin-bottom: 0.6rem
 
 footer
-  position: absolute
-  width: $content-width
-  left: $sidebar-width
-  background-color: $footer-background-color
+  background: $footer-background-color
   color: $grey-100
-  padding: $padding-content
-
-  .footer-wrapper
-    max-width: $max-width-content
-    margin: 0 auto
-    display: block
-
-  +tablet
-    width: $content-width-tablet
-    left: $sidebar-width-tablet
-
-  +smartphone
-    position: relative
-    width: 100%
-    left: 0px
+  padding-block: 1rem
+  font-size: 0.9rem
 
   p
     margin-bottom: 0
@@ -253,73 +308,79 @@ img.gopher
   margin: 0 auto $margin-blocks !important
   max-width: 200px
 
-// MOBILE ONLY
+@media (max-width: #{$desktop-width - 1px})
+  .site-header
+    position: static
+    width: auto
+    padding: 0.9rem 2rem
+    overflow: visible
 
-+desktop
-  .overlay-menu, .mobile-menu, .hamburger
-    display: none
+  .site-header-inner
+    max-width: $max-width-content
+    margin: 0 auto
+    display: grid
+    grid-template-columns: minmax(0, 1fr) auto
+    grid-template-areas: "identity contact" "navigation navigation"
+    gap: 0.4rem 1rem
+    align-items: center
 
-+tablet
-  .overlay-menu, .mobile-menu, .hamburger
-    display: none
+  .site-identity
+    grid-area: identity
+    flex-direction: row
+    align-items: center
+
+    img
+      width: 3.5rem
+      height: 3.5rem
+
+  .site-name
+    font-size: 1.4rem
+
+  .site-position
+    margin-top: 0.1rem
+    font-size: 0.95rem
+
+  .site-nav
+    grid-area: navigation
+    flex-direction: row
+    flex-wrap: wrap
+    gap: 0 1rem
+
+  .site-contact
+    grid-area: contact
+
+  .content-wrapper, footer
+    margin-left: 0
+    padding-inline: 2rem
+
+  .content-wrapper
+    padding-block: 1.35rem
+    min-height: auto
 
 +smartphone
-  .mobile-header
-    padding: $padding-mobile-header
-    background: $dark-blue
-    color: $grey-100
-    
-    p
-      font-size: $font-size_h2
-      text-align: center
-      margin: 0
-  header
-    display: none
-  .overlay-menu, .mobile-menu
-    display: block
-  .mobile-menu
-    display: flex
-    height: 100vh
+  .site-header, .content-wrapper, footer
+    padding-inline: clamp(1.125rem, 5vw, 1.25rem)
+
+  .publication-list
+    padding-inline-start: 1.65rem
+
+@media (max-width: 36rem)
+  .paper-links a
+    display: inline-flex
     align-items: center
-    justify-content: center
+    min-height: 2rem
 
-  .overlay-menu
-    display: none
-    +transition(all 0.3s)
-    background: $dark-blue !important
-    width: 0%
-    height: 0vh
-    position: absolute
-    top: 0
-    z-index: 1
+  .site-header-inner
+    grid-template-columns: minmax(0, 1fr)
+    grid-template-areas: "identity" "navigation" "contact"
+    gap: 0.25rem
 
-    header
-      display: block
+  .site-nav
+    column-gap: 0.45rem
+    font-size: 0.9375rem
 
-  .hamburger
-    cursor: pointer
-    position: absolute
-    top: 30px
-    left: 16px
-    display: block
-    z-index: 100
+  #content h1
+    font-size: 1.85rem
 
-    .bar
-      width: 22px
-      height: 2px
-      background-color: $grey-100
-      margin-bottom: 5px
-      position: relative
-      +transition(all 0.2s)
-    &.cross .bar
-      transform-origin: 50% 50%
-      &:nth-child(1)
-        +transform(rotate(45deg))
-        top: 7px
-      &:nth-child(3)
-        +transform(rotate(-45deg))
-      &:nth-child(2)
-        display: none
-
-
-// MOBILE ONLY END
+  #content h2
+    font-size: 1.5rem

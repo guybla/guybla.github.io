@@ -1,85 +1,27 @@
-<header style="{{ partial "sidebar/style" . | safeCSS }}; color:mintcream">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <div class="intro">
-    <div class="logo-container">
-      <a href="/">
-        <img src='{{ .Site.Params.sidebar.logo | absURL }}' alt="Profile {{ .Title }}" class="rounded-logo">
-      </a>
-    </div>
-    <h2>{{ .Site.Params.intro.main | default "Welcome, I'm John Doe" | emojify }}</h2>
-    <h3>{{ .Site.Params.intro.sub | emojify }}</h3>
-    <div class="menu">
-      {{ partial "sidebar/menu" . }}
-      {{ if .Site.Params.contact.email }}
-        {{ $email := printf "mailto:%s" .Site.Params.contact.email}}
-        <p>
-            <i class="fa-solid fa-envelope" style="color:mintcream"></i>
-            <a href="{{ $email }}" target="_blank" rel="external" style="color:mintcream;">
-                {{ .Site.Params.contact.text | emojify }}
-            </a>
-        </p>
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="site-identity" href="{{ .Site.Home.RelPermalink }}">
+      {{ with .Site.Params.sidebar.logo }}
+        <img src="{{ . | relURL }}" width="150" height="150" alt="">
       {{ end }}
-      {{ if .Site.Params.contact.scholar }}
-        {{ $scholar := printf .Site.Params.contact.scholar}}
-        <p>
-            <i class="fa-solid fa-graduation-cap" style="color:mintcream"></i>
-            <a href="{{ $scholar }}" target="_blank" rel="external" style="color:mintcream;">
-                {{ .Site.Params.contact.scholartext | emojify }}
-            </a>
-        </p>
-      {{ end }}
-    </div>
-  </div>
+      <span>
+        <strong class="site-name">{{ .Site.Params.intro.main | default .Site.Title }}</strong>
+        {{ if not .IsHome }}
+          {{ with .Site.Params.intro.sub }}<span class="site-position">{{ . }}</span>{{ end }}
+        {{ end }}
+      </span>
+    </a>
 
-  <div class="socials">
-      {{ partial "sidebar/social" .}}
+    <nav class="site-nav" aria-label="Main navigation">
+      {{ partial "sidebar/menu" . }}
+    </nav>
+
+    <div class="site-contact">
+      {{ with .Site.Params.contact }}
+        {{ with .email }}<a href="mailto:{{ . }}">{{ $.Site.Params.contact.text | default "Email" }}</a>{{ end }}
+        {{ with .scholar }}<a href="{{ . }}">{{ $.Site.Params.contact.scholartext | default "Google Scholar" }}</a>{{ end }}
+      {{ end }}
+      {{ partial "sidebar/social" . }}
+    </div>
   </div>
 </header>
-
-<div class="mobile-header" style="color:mintcream">
-  <p> {{ .Site.Title }} </p>
-  <div class="hamburger">
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-  </div>
-</div>
-
-<div class="overlay-menu">
-  <header>
-    <div class="intro">
-      <div class="logo-container">
-        <a href="/">
-          <img src='{{ .Site.Params.sidebar.logo | default "images/edna-west.jpg" | absURL }}' alt="Profile {{ .Title }}" class="rounded-logo">
-        </a>
-      </div>
-      <h2>{{ .Site.Params.intro.main | default "Welcome, I'm John Doe" | emojify }}</h2>
-      <h3>{{ .Site.Params.intro.sub | default "This is my personal website" | emojify }}</h3>
-      <div class="menu">
-        {{ partial "sidebar/menu" . }}
-        {{ if .Site.Params.contact.email }}
-        {{ $email := printf "mailto:%s" .Site.Params.contact.email}}
-        <p>
-            <i class="fa-solid fa-envelope" style="color:mintcream"></i>
-            <a href="{{ $email }}" target="_blank" rel="external" style="color:mintcream">
-                {{ .Site.Params.contact.text | emojify }}
-            </a>
-        </p>
-      {{ end }}
-      {{ if .Site.Params.contact.scholar }}
-        {{ $scholar := printf .Site.Params.contact.scholar}}
-        <p>
-            <i class="fa-solid fa-graduation-cap" style="color:mintcream"></i>
-            <a href="{{ $scholar }}" target="_blank" rel="external" style="color:mintcream;">
-                {{ .Site.Params.contact.scholartext | emojify }}
-            </a>
-        </p>
-      {{ end }}
-      </div>
-    </div>
-
-    <div class="socials">
-        {{ partial "sidebar/social" .}}
-    </div>
-  </header>
-</div>

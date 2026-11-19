@@ -1,0 +1,6 @@
+{{- with site.GetPage "/teaching" }}
+  <section class="teaching-section" aria-labelledby="teaching">
+    <h2 id="teaching">{{ .Title }}</h2>
+    {{ .Content }}
+  </section>
+{{- end -}}
